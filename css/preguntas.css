@@ -1,0 +1,210 @@
+
+	div#delete-preguntas{
+		display: none;
+	}
+
+ 	div.capa-h2-pregs{
+		position: absolute;
+		border: 1px solid;
+		border-radius: 11px;
+		width: 290px;
+		height: 47px;
+		left: 465px;
+		top: 30px;
+		background: url(https://media0.giphy.com/media/1iNIkQBAwEkUuTpikf/200.webp?cid=ecf05e47b6ctl7mswn6zuecl2rnbhwl17czyvhju03bs9mnz&rid=200.webp&ct=g);
+	}
+
+	div.capa-preguntas{
+		position: absolute;
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.4);
+	}
+
+	li.Respuesta_1, li.Respuesta_2, li.Respuesta_3, li.Respuesta_4{
+		margin: 30px;
+		margin-left: 40px;
+		padding: 5px;
+	}
+
+	div#delete-preguntas label{
+		font-family: arial;
+	}
+
+	.respuestas{
+		position: absolute;
+		bottom: 90px;
+		left: 75px;
+		font-size: 18px;
+	}
+
+	div.respuestas select{
+		position: absolute;
+		bottom: 250px;
+		left: 50px;
+		font-size: 23px;
+		font-family: arial;
+	}
+
+	ul.respuestas input{
+		margin-left: 10px;
+		cursor: pointer;
+	}
+
+	h2.H2-Preguntas {
+		position: absolute;
+		color: #fff;
+		width: 290px;
+		padding: 5px;
+		font-size: 30px;
+		text-align: center;
+		border: 1px solid #fff;
+		border-radius: 10px;
+		background: rgba(0, 0, 0, 0.5);
+		font-family: arial;
+	}
+
+	p.p-Preguntas {
+		position: absolute;
+		top: 130px;
+		margin-left: 80px;
+		margin-right: 40px;
+		font-size: 30px;
+		font-family: arial;
+	}
+
+	h3.Puntos-Preguntas{
+		color: #fff;
+		font-size: 30px;
+		position: absolute;
+		right: 40px;
+		bottom: 20px;
+		font-family: arial;
+		opacity: 0.7;
+
+	}
+
+	form#PreguntaUno,form#PreguntaDos,form#PreguntaTres,form#PreguntaCuatro{
+		color: #fff;
+		position: absolute;
+		width: 1200px;
+		height: 600px;
+		border: 1px solid #000000;
+		border-radius: 22px;
+	}
+
+	div#fondo-preg1,div#fondo-preg2,div#fondo-preg3,div#fondo-preg4{
+		position: absolute;
+		width: 1230px;
+		height: 630px;
+		border-radius: 20px;		
+	}
+
+	/*Pregunta 1*//*Pregunta 1*/
+	/*Pregunta 1*//*Pregunta 1*/
+	/*Pregunta 1*//*Pregunta 1*/
+
+	form#PreguntaUno {
+		top: 270px;
+		left: 355px;
+		background: url(preg104.jpg);
+		background-size: 65vw 70vh;
+	}
+
+	div#fondo-preg1{
+		top: 255px;
+		left: 340px;
+		background: url(https://media4.giphy.com/media/5kFbMBOEdWjg1nItoG/200w.webp?cid=ecf05e47dzc1qddj5qjduwebe86vbim3sapphcf506urvusn&rid=200w.webp&ct=g);
+		background-size: 65vw 70vh;
+	}
+
+
+	/* Pregunta 2 *//* Pregunta 2 */
+	/* Pregunta 2 *//* Pregunta 2 */
+	/* Pregunta 2 *//* Pregunta 2 */
+
+	form#PreguntaDos {
+		top: 1095px;
+		left: 355px;
+		background: url(preg203.jpg);
+		background-size: 65vw 70vh;
+	}
+
+	div#fondo-preg2{
+		top: 1080px;
+		left: 340px;
+		background: url(https://media4.giphy.com/media/t2aAdTgnU9Ie6jvG0W/200w.webp?cid=ecf05e4777oaopzkwpmu89u8wbl60vu19jcvxx8gceoof2qf&rid=200w.webp&ct=g);
+		background-size: 65vw 70vh;
+	}
+
+	/* Pregunta 3 *//* Pregunta 3 */
+	/* Pregunta 3 *//* Pregunta 3 */
+	/* Pregunta 3 *//* Pregunta 3 */
+
+	form#PreguntaTres {
+		top: 1915px;
+		left: 355px;
+		background: url(preg302.jpg);
+		background-size: 65vw 70vh;
+	}
+
+	div#fondo-preg3{
+		top: 1900px;
+		left: 340px;
+		background: url(https://media0.giphy.com/media/xT0BKojAs5JtzL9gju/200w.webp?cid=ecf05e47xwfjq8p1b7g6yms5kndw015pbg0enzq3ccnnd8v2&rid=200w.webp&ct=g);
+		background-size: 65vw 70vh;
+	}
+
+	/* Pregunta 4 *//* Pregunta 4 */
+	/* Pregunta 4 *//* Pregunta 4 */
+	/* Pregunta 4 *//* Pregunta 4 */
+
+	form#PreguntaCuatro {
+		top: 2735px;
+		left: 355px;
+		background: url(preg401.jpg);
+		background-size: 65vw 70vh;
+	}
+
+	form#PreguntaCuatro div.capa-preguntas{
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+	div#fondo-preg4{
+		top: 2720px;
+		left: 340px;
+		background: url(fondogif10.gif);
+		background-size: 65vw 70vh;
+	}
+
+	h3#pregunta4-correcta{
+		visibility: hidden;
+		position: absolute;
+		bottom: 250px;
+		left: 125px;
+		color: lightgreen;
+		background: black;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+
+	div#inicio-preg1{
+		position: absolute;
+		top: 70px;
+	}
+
+	div#inicio-preg2{
+		position: absolute;
+		top: 880px;
+	}
+
+	div#inicio-preg3{
+		position: absolute;
+		top: 1700px;
+	}
+
+	div#inicio-preg4{
+		position: absolute;
+		top: 2520px;
+	}
