@@ -84,19 +84,19 @@
 							<ul class="respuestas">
 								<li class="Respuesta_1">
 									<label for="p1resp1" id="p1_label1">UV Ceti (L 726-8 B) - 8,7 Años Luz</label>
-									<input type="radio" name="preg1" id="p1resp1" value="1" />
+									<input type="radio" name="preg1" id="p1resp1"/>
 								</li>
 								<li class="Respuesta_2" id="p1_label2">
 									<label for="p1resp2">Proxima Centauri - 4,2 Años Luz</label>
-									<input type="radio" name="preg1" id="p1resp2" value="2" />
+									<input type="radio" name="preg1" id="p1resp2"/>
 								</li>
 								<li class="Respuesta_3" id="p1_label3">
 									<label for="p1resp3">GJ 388 - 15,9 Años Luz</label>
-									<input type="radio" name="preg1" id="p1resp3" value="3" />
+									<input type="radio" name="preg1" id="p1resp3"/>
 								</li>
 								<li class="Respuesta_4" id="p1_label4">
 									<label for="p1resp4">Alfa Centauri - 4,2 Años Luz</label>
-									<input type="radio" name="preg1" id="p1resp4" value="4" />
+									<input type="radio" name="preg1" id="p1resp4"/>
 								</li>
 							</ul>
 						</div>
@@ -119,19 +119,19 @@
 							<ul class="respuestas">
 								<li class="Respuesta_1">
 									<label for="p2resp1" id="p2_label1">Hierro y Nitrógeno</label>
-									<input type="radio" name="preg2" id="p2resp1" value="5" />
+									<input type="radio" name="preg2" id="p2resp1"/>
 								</li>
 								<li class="Respuesta_2" id="p2_label2">
 									<label for="p2resp2">Azufre y Magnesio</label>
-									<input type="radio" name="preg2" id="p2resp2" value="6" />
+									<input type="radio" name="preg2" id="p2resp2"/>
 								</li>
 								<li class="Respuesta_3" id="p2_label3">
 									<label for="p2resp3">Carbono y Neón</label>
-									<input type="radio" name="preg2" id="p2resp3" value="7" />
+									<input type="radio" name="preg2" id="p2resp3"/>
 								</li>
 								<li class="Respuesta_4" id="p2_label4">
 									<label for="p2resp4">Hidrógeno y Helio</label>
-									<input type="radio" name="preg2" id="p2resp4" value="8" />
+									<input type="radio" name="preg2" id="p2resp4"/>
 								</li>
 							</ul>
 						</div>
@@ -153,19 +153,19 @@
 							<ul class="respuestas">
 								<li class="Respuesta_1">
 									<label for="p3resp1" id="p3_label1">11 Horas</label>
-									<input type="radio" name="preg3" id="p3resp1" value="9" />
+									<input type="radio" name="preg3" id="p3resp1"/>
 								</li>
 								<li class="Respuesta_2" id="p3_label2">
 									<label for="p3resp2">28 Horas</label>
-									<input type="radio" name="preg3" id="p3resp2" value="10" />
+									<input type="radio" name="preg3" id="p3resp2"/>
 								</li>
 								<li class="Respuesta_3" id="p3_label3">
 									<label for="p3resp3">17 Horas</label>
-									<input type="radio" name="preg3" id="p3resp3" value="11" />
+									<input type="radio" name="preg3" id="p3resp3"/>
 								</li>
 								<li class="Respuesta_4" id="p3_label4">
 									<label for="p3resp4">23 Horas</label>
-									<input type="radio" name="preg3" id="p3resp4" value="12" />
+									<input type="radio" name="preg3" id="p3resp4"/>
 								</li>
 							</ul>
 						</div>
@@ -184,24 +184,16 @@
 							</div>
 							<p class="p-Preguntas">¿En que día Neil Armstrong y el piloto Edwin F. Aldrin pisaron la luna?</p>
 							<h3 class="Puntos-Preguntas">Puntos: 2</h3>
-							<ul class="respuestas">
-								<li class="Respuesta_1" id="p4_label1">
-									<label for="p4resp2">22 de Julio de 1969</label>
-									<input type="radio" name="preg4" id="p4resp1" value="14" />
-								</li>
-								<li class="Respuesta_2" id="p4_label2">
-									<label for="p4resp3">18 de Julio de 1969</label>
-									<input type="radio" name="preg4" id="p4resp2" value="15" />
-								</li>
-								<li class="Respuesta_3" id="p4_label3">
-									<label for="p4resp1">20 de Julio de 1969</label>
-									<input type="radio" name="preg4" id="p4resp3" value="13" />
-								</li>
-								<li class="Respuesta_4" id="p4_label4">
-									<label for="p4resp4">Es todo una mentira, nadie llego a la luna y la tierra es plana</label>
-									<input type="radio" name="preg4" id="p4resp4" value="16" />
-								</li>
-							</ul>
+							<div class="respuestas">
+								<select id="select-p4">
+									<option value="Null" selected></option>
+									<option value="1" id="p4resp1">22/07/1969</option>
+									<option value="2" id="p4resp2">18/07/1969</option>
+									<option value="3" id="p4resp3">20/07/1969</option>
+									<option value="4" id="p4resp4">Ninguna de las anteriores</option>
+								</select>
+							</div>
+							<h3 id="pregunta4-correcta">Respuesta Correcta : 20/07/1969</h3>
 						</div>
 					</form>
 
