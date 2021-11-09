@@ -85,29 +85,30 @@
 		//PREGUNTA 4	//PREGUNTA 4	//PREGUNTA 4	//PREGUNTA 4
 		//PREGUNTA 4	//PREGUNTA 4	//PREGUNTA 4	//PREGUNTA 4
 
-		flag = document.getElementById("p4resp1");
-		if(flag.checked){
-			document.getElementById("p4_label3").style.color = "lightgreen";
-			document.getElementById("p4_label1").style.color = "red";
+		flag = document.getElementById("select-p4").value;
+		if(flag == 1){
+			document.getElementById("select-p4").style.background = "red";
 		}
-		flag = document.getElementById("p4resp2");
-		if(flag.checked){
-			document.getElementById("p4_label3").style.color = "lightgreen";
-			document.getElementById("p4_label2").style.color = "red";
+		if(flag == 2){
+			document.getElementById("select-p4").style.background = "red";
 		}
-		flag = document.getElementById("p4resp3");
-		if(flag.checked){
+		if(flag == 3){
 			contenidofinal += 2;
-			document.getElementById("p4_label3").style.color = "lightgreen";
+			document.getElementById("select-p4").style.background = "lightgreen";
 		}
-		flag = document.getElementById("p4resp4");
-		if(flag.checked){
-			document.getElementById("p4_label3").style.color = "lightgreen";
-			document.getElementById("p4_label4").style.color = "red";
-		}	
+		if(flag == 4){
+			document.getElementById("select-p4").style.background = "red";
+		}
+		if(flag == "Null"){
+			document.getElementById("select-p4").style.background = "red";
+		}
+
 			document.getElementById("resp-final").innerHTML = "Puntaje Obtenido: " + contenidofinal + "/10";
 			document.getElementById("puntuacion").innerHTML = contenidofinal + "/10";
 			document.getElementById("btn-final").style.visibility = "hidden";
+
+			if(flag != 3)
+				document.getElementById("pregunta4-correcta").style.visibility = "visible";
 
 			if(contenidofinal < 6){
 				document.getElementById("gif-mal").style.visibility = "visible";
